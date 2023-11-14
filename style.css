@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('bg-img2.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.main{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 450px;
+    border-radius: 15px;
+    background-color: rgba(236, 236, 236, 0.845);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-control{
+   
+    font-family: 'Roboto', sans-serif;
+}
+.btn-login{
+    width: 100%;
+}
+p a{
+
+    text-decoration: none;
+}
+p, a{
+    font-size: 14px;
+}
+::placeholder{
+    color: rgba(128, 128, 128, 0.67);
+    font-size: 13px;
+}
